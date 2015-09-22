@@ -85,7 +85,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-
+console.log(config().serverPort);
 if (!!module.parent){
   module.exports = app;
 }else{
